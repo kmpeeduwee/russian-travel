@@ -1,6 +1,6 @@
 .header__logo {
   margin: 0;
   padding: 0;
-  position: relative;
-  align-items: start;
+  width: 176px;
+  height: 52px;
 }
