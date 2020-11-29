@@ -1,0 +1,30 @@
+.content-subtitle {
+  color: white;
+  margin: 0 auto 72px;
+  max-width: 640px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .content-subtitle {
+    margin: 0 auto 56px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-subtitle {
+    margin: 0 auto 48px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .content-subtitle:first-of-type {
+    margin-bottom: 24px;
+  }
+}
