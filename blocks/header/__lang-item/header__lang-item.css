@@ -1,7 +1,5 @@
-.header__lang-item:nth-child(1) {
-  text-decoration: underline;
-}
-
-.header__lang-item:nth-child(2) {
+.header__lang-item {
   text-decoration: none;
 }
+
+

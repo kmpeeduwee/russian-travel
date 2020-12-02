@@ -7,6 +7,7 @@
   color: white;
   text-decoration: none;
   z-index: 0;
+  text-align: right;
 }
 
 .header__link:hover {

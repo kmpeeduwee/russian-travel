@@ -15,10 +15,10 @@
           <img src="blocks/header/__logo/header-logo.svg" alt="Логотип" class="header__logo">
           <ul class="header__lang">
             <li class="header__lang-item">
-              <a href="#" class="header__link" target="_blank">Ru</a>
+              <a href="#" class="header__link header__link_active" target="_blank" lang="ru">Ru </a>
             </li>
             <li class="header__lang-item">
-              <a href="#" class="header__link" target="_blank">En</a>
+              <a href="#" class="header__link" target="_blank" lang="en">En</a>
             </li>
           </ul>
         </div>
@@ -28,9 +28,9 @@
         <section class="lead">
           <div class="lead__container">
             <h1 class="lead__title">Путешествия по России</h1>
-            <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-            <div class="lead__image"></div>
-            <span class="lead__caption">Ваша полка -верхняя</span>
+            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <img src="blocks/lead/__image/lead-polka.jpg" alt="Карта" class="lead__image">
+            <span class="lead__caption">Ваша полка - верхняя</span>
           </div>
         </section>
 
@@ -46,11 +46,11 @@
             </p>
 
             <ul class="intro__list">
-              <li><span class="intro__list intro__list_weight">Часовых поясов</span> 11</li>
-              <li><span class="intro__list intro__list_weight">Объектов природного наследия ЮНЕСКО</span> 12</li>
-              <li><span class="intro__list intro__list_weight">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-              <li><span class="intro__list intro__list_weight">Природных заповедников</span> 105</li>
-              <li><span class="intro__list intro__list_weight">Аэропортов</span> 241</li>
+              <li><span class="intro__subtext">Часовых поясов</span> 11</li>
+              <li><span class="intro__subtext">Объектов природного наследия ЮНЕСКО</span> 12</li>
+              <li><span class="intro__subtext">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+              <li><span class="intro__subtext">Природных заповедников</span> 105</li>
+              <li><span class="intro__subtext">Аэропортов</span> 241</li>
             </ul>
           </div>
         </section>
@@ -72,7 +72,7 @@
 
         <section class="places">
           <div class="places__container">
-            <div class="places__item">
+            <article class="places__item">
               <h2 class="places__title">Куршская коса</h2>
               <div class="places__website">
                 <span class="places__url-heading">URL</span>
@@ -89,8 +89,8 @@
                   приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
                 </p>
               </div>
-            </div>
-            <div class="places__item">
+            </article>
+            <article class="places__item">
               <h2 class="places__title">Кольский</h2>
               <div class="places__website">
                 <span class="places__url-heading">URL</span>
@@ -108,8 +108,8 @@
                   Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
                 </p>
               </div>
-            </div>
-            <div class="places__item">
+            </article>
+            <article class="places__item">
               <h2 class="places__title">Алтай</h2>
               <div class="places__website">
                 <span class="places__url-heading">URL</span>
@@ -127,8 +127,8 @@
                   пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                 </p>
               </div>
-            </div>
-            <div class="places__item">
+            </article>
+            <article class="places__item">
               <h2 class="places__title">Зимний Байкал</h2>
               <div class="places__website">
                 <span class="places__url-heading">URL</span>
@@ -144,8 +144,8 @@
                   В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
                 </p>
               </div>
-            </div>
-            <div class="places__item">
+            </article>
+            <article class="places__item">
               <h2 class="places__title">Карелия</h2>
               <div class="places__website">
                 <span class="places__url-heading">URL</span>
@@ -161,13 +161,12 @@
                   в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
         </section>
 
         <section class="cover">
-          <div class="cover__background"></div>
-          <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <div class="cover__title-container">
               <h2 class="cover__title">До Байкала «на собаках»</h2>
               <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>

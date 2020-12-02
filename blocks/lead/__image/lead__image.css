@@ -1,8 +1,6 @@
 .lead__image {
 	width: 100%;
 	max-width: 984px;
-	padding-bottom: calc(545/985*100%);
-	background-image: url("../../lead/__image/lead-polka.jpg");
 	background-size: cover;
 	background-position: center;
 	position: relative;

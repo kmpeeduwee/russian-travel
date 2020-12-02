@@ -10,3 +10,6 @@ ___
 * Grid layout;
 * Elastic layout;
 * Adaptive layout.
+
+Демонстрация работы на github:
+https://kmpeeduwee.github.io/russian-travel/index.html
