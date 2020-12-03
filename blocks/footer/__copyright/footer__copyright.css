@@ -6,9 +6,10 @@
   align-self: center;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
   .footer__copyright {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    max-width: 186px;
     align-self: flex-start;
   }
 }
