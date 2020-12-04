@@ -1,7 +1,7 @@
 .cover__overlay {
   background-color: rgba(42, 44, 47, 0.3);
   display: flex;
-  width: 1184px;
+  max-width: 1184px;
   min-height: 740px;
   text-decoration: none;
   position: relative;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__overlay {
-    width: 1024px;
+    width: 100%;
     min-height: 640px;
   }
 }
